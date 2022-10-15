@@ -47,8 +47,10 @@ function colors.generate(mirage)
       colors.warning = '#FFA759'
     else
       colors.accent = '#E6B450'
-      colors.bg = '#0A0E14'
-      colors.fg = '#B3B1AD'
+      colors.bg = '#0F141A'
+      -- colors.bg = '#0A0E14'
+      colors.fg = '#C5C5C5'
+      -- colors.fg = '#B3B1AD'
       colors.ui = '#4D5566'
 
       colors.tag = '#39BAE6'
@@ -65,7 +67,8 @@ function colors.generate(mirage)
       colors.error = '#FF3333'
 
       colors.line = '#00010A'
-      colors.panel_bg = '#0D1016'
+      colors.panel_bg = colors.bg
+      -- colors.panel_bg = '#0D1016'
       colors.panel_shadow = '#00010A'
       colors.panel_border = '#000000'
       colors.gutter_normal = '#323945'
